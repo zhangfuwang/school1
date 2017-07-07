@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content=""/>
+    <title>登录页</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/login.css"/>
+    <style>
+
+    </style>
+</head>
+<body>
+<nav id="nav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!--1、navbar-header-->
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand"></a>
+            <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target="#myCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!--2、navbar-collapse-->
+        <div id="myCollapse" class="navbar-collapse collapse">
+            <!--1、下拉菜单-->
+            <div class="dropdown navbar-left">
+                <a href="#" class="dropdown-toggle navbar-text" data-toggle="dropdown">
+                    菜单
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Intel产品</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Intel产品</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Intel产品</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Intel产品</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Intel产品</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Intel产品</a></li>
+                </ul>
+            </div>
+            <!--2、form表单-->
+            <form class="navbar-form navbar-right">
+                <p class="form-control-static">查找内容</p>
+                <p class="form-control-static">|</p>
+                <div class="form-group has-feedback">
+                    <input class="form-control" type="text" placeholder="搜索"/>
+                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </div>
+            </form>
+            <!--3、导航-->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">China(简体中文)</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown">登录</a>
+                    <!-- 下拉菜单 -->
+                    <div class="dropdown-menu">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <h3>登录</h3>
+                                <p>您是否在Intel工作</p>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="用户名"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control"/>
+                                    </div>
+                                    <p>您登录表明同意我们的服务条款</p>
+                                    <button type="submit" class="btn btn-primary btn-xs">登录</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootlint.js"></script>
+</body>
+</html>
